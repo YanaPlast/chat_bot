@@ -5885,7 +5885,7 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
 .message {
     display: inline-block;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(255, 255, 255);
     /* border: 1px solid #b1223c; */
     border-radius: 18px;
     text-align: left;
@@ -5895,6 +5895,7 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
 }
 .bot-message {
     padding: 20px 20px 20px 30px;
+    background-color: #dcedfe;
 }
 .client-message {
     width: auto;
@@ -5911,7 +5912,7 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
     width: 60px;
     height: 60px;
     border-radius: 18px;
-    background-color: #d4860a;
+    background-color: #86b8ea;
     /* border: 1px solid #ffffff; */
     background-repeat: no-repeat;
     background-position: center center;
@@ -5922,13 +5923,13 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
 .bot-message:before {
     bottom: -10px;
     left: -50px;
-    background-image: url(../images/chat/bot2-micro.png);
+    background-image: url(../images/chat/bot2-micro.png); 
     background-size: 80%;
 }
 .client-message:before {
     bottom: -10px;
     right: -50px;
-    background-image: url(../images/chat/client-icon.png);
+    background-image: url(../images/chat/client-icon.png); 
     background-size: 60%;
 }
 .image-message {
@@ -5967,28 +5968,29 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
 }
 .buttons-block {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: flex-start;
     align-items: center;
 }
 .bot-btn {
     padding: 10px 30px;
-    background-image: linear-gradient(89.82deg, #DF4C2F 1.34%, #FF8269 99.84%, rgba(223, 76, 47, 0) 99.85%);
-    background-color: #e04d30;
+    /*background-image: linear-gradient(89.82deg, #DF4C2F 1.34%, #FF8269 99.84%, rgba(223, 76, 47, 0) 99.85%);*/
+    background-color: #d18901;
     -webkit-transition: all .3s;
     transition: all .3s linear;
     cursor: pointer;
     outline: none !important;
     border-radius: 20px;
-    color: #fff;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     margin: 0 10px 20px 0;
+
 }
 .bot-btn:hover {
-    background-image: none;
+   /* background-image: none;*/
     background-color: #ffffff;
     color: #493cb5;
 }
