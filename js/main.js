@@ -507,9 +507,13 @@ $(function () {
         $(this ).attr( "placeholder", "Введите Ваши данные" );
     })
 
-  //======Delete Icon for input  ===============
+  //======  coursor in input on focus  ===============
+ 
+    var blockWithInput = $('.input-message');
+    blockWithInput.on('click', function(){
+        $(this).children('input[type="text"]').focus();
+    });
 
-    var texting = $('.input-message');
 
 
 

@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 
 
+
 </head>
 
 <body>
@@ -50,10 +51,19 @@
     
     <!--====== PRELOADER START ======-->
     
-    <div class="preloader">
+<!--     <div class="preloader">
         <div class="drawing" id="loading">
-		    <div class="loading-dot"></div>
-	    </div>
+            <div class="loading-dot"></div>
+        </div>
+    </div> --> 
+
+    <div class="box">
+      <div class="loader">
+        <div class="o"></div>
+        <div class="o"></div>
+        <div class="o"></div>
+        <div class="o"></div>
+      </div>
     </div>
 
     <header id="header-area" class="header-area header-area-5">
@@ -224,9 +234,23 @@
                             </div>
                         </div>
 
+
+
                         <div class="image-message">
-                            <img src="images/chat/dannie-zayavitelya-example.jpg" alt="Пример данных заявителя - патентное бюро Железно">
+                            <a data-toggle="modal" data-target="#screenshots-modal"><img src="images/chat/docs/zayavitel-min.jpg" alt="Пример данных заявителя - патентное бюро Железно"></a>
                         </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="screenshots-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <button type="button" class="close close-popup" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                                <img class="img-fluid" src="images/chat/docs/zayavitel-full.jpg" alt="Пример данных заявителя - патентное бюро Железно">
+                            </div>
+                          </div>
+                        </div>
+
 
                         <div class="message-block bot">
                             <div class="message bot-message">
@@ -316,13 +340,14 @@
                                     <li><a href="https://tovarnyj-znak.ru/">Регистрация</a></li>
                                     <li><a href="https://tovarnyj-znak.ru/prodlenie">Продление</a></li>
                                     <li><a href="https://tovarnyj-znak.ru/dogovor-otchuzhdeniya-peredacha-prava">Отчуждение</a></li>
+                                    <li><a href="#">Патент на полезную модель</a></li>
                                 </ul>
                             </div> <!-- footer item -->
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-6 pt-30">
                             <div class="footer-item footer-item-5">
                                 <h4>Tags</h4>
-                                <span><a href="#">App</a></span>
+                               
                                 <span><a href="#">Business</a></span>
                                 <span><a href="#">Corporate</a></span>
                                 <span><a href="#">Creative</a></span>
@@ -348,9 +373,9 @@
 
 
     <!--====== jquery js ======-->
-    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-
+<!--     <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script> -->
+<script src="js/jquery.js"></script>
     <!--====== Bootstrap js ======-->
     <script src="js/bootstrap.min.js"></script>
 
