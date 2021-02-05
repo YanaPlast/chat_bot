@@ -5925,6 +5925,7 @@ background: linear-gradient(90deg, rgba(148, 69, 255, 1) 0%, rgba(240, 69, 255, 
     left: -50px;
     background-image: url(../images/chat/bot2-micro.png); 
     background-size: 80%;
+    background-color: #846ae4;
 }
 .client-message:before {
     bottom: -10px;
