@@ -1439,7 +1439,7 @@
 /* Mobile menu :991px. */
 @media only screen and (max-width: 990px) {
 	
-.header-area {
+/*.header-area {
 	display: none !important;
 }	
 .mobile_menu_area {
@@ -1448,7 +1448,7 @@
 .mobile_logo_area {
 	display: block !important;
 }
-
+*/
 	
 .mean-container .mean-bar {
 	float: none;	
