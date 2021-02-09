@@ -3018,19 +3018,21 @@ p {
     bottom: -85px;
     display: inline-block;
 }
-#testomonial .slick-track {
+/*#testomonial .slick-track {
     display: flex;  
     align-items: stretch;
-}
-.testomonial-slide .slick-dots li {
-    display: inline-block;
 }
 #testomonial .slick-slide, #testomonial .slick-cloned, #testomonial .slick-current, #testomonial .slick-active {
     flex: 0 0 10%;
 }
 #testomonial .slick-initialized .slick-slide, #testomonial .slick-slide {
-    min-height: 300px;
+    height: 100%;
 }
+*/
+.testomonial-slide .slick-dots li {
+    display: inline-block;
+}
+
 .testomonial-slide .slick-dots li button {
     background-color: transparent;
     font-size: 0;
